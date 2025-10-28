@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pham Khanh Linh - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="animated-bg" id="animated-bg"></div>
+
+    <!-- Floating side navigation -->
+    <div class="floating-nav">
+        <a href="#home" class="floating-nav-item">Home</a>
+        <a href="#about" class="floating-nav-item">About</a>
+        <a href="#awards" class="floating-nav-item">Award</a>
+        <a href="#projects" class="floating-nav-item">Project</a>
+        <a href="#skills" class="floating-nav-item">Skill</a>
+        <a href="#leadership" class="floating-nav-item">Lead</a>
+        <a href="#contact" class="floating-nav-item">Talk</a>
+    </div>
+
+    <!-- Top Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Khanh Linh</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#awards">Achievements</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Competencies</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#contact">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="decoration-dots" style="top: 20%; left: 10%; animation-delay: 1s;"></div>
+        <div class="decoration-dots" style="top: 70%; right: 15%; animation-delay: 3s;"></div>
+        <div class="decoration-line" style="top: 30%; left: 20%; animation-delay: 2s;"></div>
+        <div class="decoration-line" style="bottom: 40%; right: 25%; animation-delay: 4s;"></div>
+        
+        <div class="hero-content">
+            <h1>PHAM KHANH LINH</h1>
+            <h2 id="typewriter">Psychology Enthusiast • Research Pioneer • Social Impact Leader</h2>
+            <div class="introduction">
+                Welcome to my portfolio! I'm <span class="highlight">Pham Khanh Linh</span>, a Grade 12 student in the specialized <span class="highlight">Chemistry stream at Hanoi – Amsterdam High School for the Gifted</span>. I'm passionate about Psychology and creating meaningful impact through research and community service. Explore my journey below!
+            </div>
+            <a href="#about" class="cta-button">Discover My Story</a>
+            <a href="https://drive.google.com/file/d/1wgqFAx2kg-d49H4Lu_m3i_8MaxNIBfwH/view?usp=drive_link" 
+            target="_blank" 
+            class="cta-button outline-button">Portfolio STEM
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-container slide-in-left">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="Letter.png" 
+                         alt="Portrait Photo" 
+                         style="width:100%; height:100%; object-fit:cover; border-radius:inherit;">
+                </div>
+                <div class="about-text" style="text-align: justify;">
+                    <p>
+                        As a Grade 11 student at Hanoi - Amsterdam High School for the Gifted, 
+                        I have maintained a strong academic record with a <span class="highlight">9.5 GPA</span>. 
+                        My standardized test achievements include an <span class="highlight">SAT score of 1550</span> 
+                        and an <span class="highlight">IELTS score of 8.0</span>.
+                    </p>
+                    <p><span class="award-badge">GPA: 9.5</span><span class="award-badge">SAT: 1550</span><span class="award-badge">IELTS: 8.0</span></p>
+
+                    <p>
+                        As an active member of the <span class="highlight">School Youth Union Executive Committee</span>, 
+                        I coordinate outreach and events that foster campus spirit and social responsibility. 
+                        I am also leading the development of a social network platform for people with disabilities, 
+                        overseeing task assignments and timelines to ensure an inclusive, user-centered design.
+                    </p>
+
+                    <p>
+                        Outside of school, I volunteer at <span class="highlight">Thuy An Rehabilitation Center</span>, 
+                        where I express my creativity through drawing, which strengthens my observational skills and empathy. 
+                        Looking ahead, I plan to pursue Psychology, aiming to develop data-driven, humane interventions 
+                        that support mental well-being in diverse learning communities.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Statistics Section -->
+        <div class="stats-section fade-in">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="9.5">0</div>
+                    <div class="stat-label">GPA Average</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="2+">0</div>
+                    <div class="stat-label">Gold Awards</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="4+">0</div>
+                    <div class="stat-label">Years of Leadership</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100+">0</div>
+                    <div class="stat-label">Hours Volunteering</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+<section id="awards" class="section">
+    <h2 class="section-title fade-in">Honors & Awards</h2>
+    <div class="cards-container awards-container">
+        <div class="card card-horizontal slide-in-right">
+            <div class="card-content">
+                <div class="card-date"><span class="award-badge">2025</span></div>
+                <h3>Gold Award - 1I1W Conference, Turkey</h3>
+                <p><strong>Topic:</strong> "Digital Transformation in Vietnamese Higher Education: Psychological Challenges Faced by Teachers and Students"</p>
+                <p><strong>Role:</strong> As primary stakeholders in the digital transformation journey, students are directly exposed to a range of psychological challenges, including the pressure of autonomous learning, diminished social interaction, and heightened stress associated with adapting to digital learning environments.</p>
+            </div>
+            <div class="card-images-stack">
+                <div class="image-stack-container" data-section="awards1">
+                    <img src="pic-1.png" alt="Award Certificate" class="stack-img" data-index="0">
+                    <img src="pic-2.png" alt="Conference Photo" class="stack-img" data-index="1">
+                    <div class="stack-controls">
+                        <button class="stack-prev">❮</button>
+                        <span class="stack-counter"><span class="current">1</span>/<span class="total">2</span></span>
+                        <button class="stack-next">❯</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card-horizontal card-horizontal-reverse slide-in-left">
+            <div class="card-images-stack">
+                <div class="image-stack-container" data-section="awards2">
+                    <img src="Aj.jpg" alt="AIJAM Gold Medal Certificate" class="stack-img" data-index="0">
+                    <img src="Aj1.png" alt="AIJAM Presentation Photo" class="stack-img" data-index="1">
+                    <div class="stack-controls">
+                        <button class="stack-prev">❮</button>
+                        <span class="stack-counter"><span class="current">1</span>/<span class="total">2</span></span>
+                        <button class="stack-next">❯</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="card-date"><span class="award-badge">2025</span></div>
+                <h3>Gold Medal - AIJAM 2025</h3>
+                <p><strong>Topic:</strong> "Factors Influencing Online Purchase Intention on E-commerce Platforms in Vietnam"</p>
+                <p><strong>Role:</strong> Lead Student Researcher</p>
+                <ul>
+                    <li>Identified key factors such as trust in platform security, perceived ease of use, product variety, and promotional incentives through literature review and data synthesis</li>
+                    <li>Conducted surveys with over 300 Vietnamese consumers to gather empirical data on shopping behaviors and preferences across major e-commerce sites like Shopee and Lazada</li>
+                    <li>Applied statistical analysis (e.g., regression models) to quantify influences and proposed actionable strategies for e-commerce businesses to boost conversion rates and customer loyalty</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title fade-in">Personal Projects</h2>
+        <div class="projects-asymmetric">
+            <div class="project-main slide-in-left">
+                <h3 style="color: #771126; font-size: 1.6rem; margin-bottom: 1.5rem; font-weight: 600;">Social Network for People with Disabilities</h3>
+                <p style="margin-bottom: 1.5rem; color: #555; font-size: 1.1rem;"><strong>Project Leadership & Development</strong></p>
+                <ul style="padding-left: 1.5rem; color: #666; line-height: 1.8;">
+                    <li>Defined core feature modules, including user profiles, discussion forums, and resource libraries</li>
+                    <li>Delegated UI/UX design, back-end development, and accessibility testing tasks across student teams</li>
+                    <li>Planned sprint cycles and conducted progress reviews to ensure timely, high-quality deliverables</li>
+                </ul>
+                <a href="https://drive.google.com/file/d/1wgqFAx2kg-d49H4Lu_m3i_8MaxNIBfwH/view?usp=drive_link" target="_blank">
+                    <button class="project-btn">View My Project</button>
+                </a>                
+                <div class="project-photo-row" data-section="projects">
+                    <div class="project-photo-container" data-index="0">
+                        <img src="Picture1.png" alt="Project Screenshot">
+                    </div>
+                    <div class="project-photo-container" data-index="1">
+                        <img src="Picture2.png" alt="Development Process">
+                    </div>
+                </div>
+            </div>
+            <div class="project-sidebar slide-in-right">
+                <div class="project-mini">
+                    <h4 style="color: #771126; margin-bottom: 0.5rem;">Tech Stack</h4>
+                    <p style="font-size: 0.9rem; color: #666;">HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="project-mini">
+                    <h4 style="color: #771126; margin-bottom: 0.5rem;">Team Size</h4>
+                    <p style="font-size: 0.9rem; color: #666;">5 Students</p>
+                </div>
+                <div class="project-mini">
+                    <h4 style="color: #771126; margin-bottom: 0.5rem;">Timeline</h4>
+                    <p style="font-size: 0.9rem; color: #666;">Ongoing Project</p>
+                </div>
+                <div class="project-mini">
+                    <h4 style="color: #771126; margin-bottom: 0.5rem;">Impact</h4>
+                    <p style="font-size: 0.9rem; color: #666;">Social Inclusion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title fade-in">Core Competencies</h2>
+        <div class="skills-honeycomb-container">
+            <!-- Row 1: 4 hexagons -->
+            <div class="hex-row hex-row-1">
+                <div class="skill-hex fade-in">
+                    <div class="skill-hex-inner">
+                        <div class="skill-hex-title">Psychology Research</div>
+                        <div class="skill-hex-desc">Digital learning environments, mental health interventions</div>
+                    </div>
+                </div>
+                <div class="skill-hex fade-in" style="transition-delay: 0.1s;">
+                    <div class="skill-hex-inner">
+                        <div class="skill-hex-title">Data Analysis</div>
+                        <div class="skill-hex-desc">Survey design, statistical analysis, evidence-based recommendations</div>
+                    </div>
+                </div>
+                <div class="skill-hex fade-in" style="transition-delay: 0.2s;">
+                    <div class="skill-hex-inner">
+                        <div class="skill-hex-title">Leadership</div>
+                        <div class="skill-hex-desc">Team coordination, project management, community engagement</div>
+                    </div>
+                </div>
+                <div class="skill-hex fade-in" style="transition-delay: 0.3s;">
+                    <div class="skill-hex-inner">
+                        <div class="skill-hex-title">Creative Expression</div>
+                        <div class="skill-hex-desc">Drawing, visual storytelling, empathetic communication</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2: 4 hexagons offset (xen kẽ) -->
+            <div class="hex-row hex-row-2">
+                <div class="skill-hex fade-in" style="transition-delay: 0.4s;">
+                    <div class="skill-hex-inner">
+                        <div class="skill-hex-title">Artistic Expression</div>
+                        <div class="skill-hex-desc">Skilled in drawing and illustration; explores emotions and social themes through art</div>
+                    </div>
+                </div>
+                <div class="skill-hex fade-in" style="transition-delay: 0.5s;">
+                    <div class="skill-hex-inner">
+                        <div class="skill-hex-title">Empathetic Communication</div>
+                        <div class="skill-hex-desc">Naturally attuned to others' feelings; listens and responds with sensitivity</div>
+                    </div>
+                </div>
+                <div class="skill-hex fade-in" style="transition-delay: 0.6s;">
+                    <div class="skill-hex-inner">
+                        <div class="skill-hex-title">Visual Storytelling</div>
+                        <div class="skill-hex-desc">Combines art with psychology to convey complex emotional narratives</div>
+                    </div>
+                </div>
+                <div class="skill-hex fade-in" style="transition-delay: 0.7s;">
+                    <div class="skill-hex-inner">
+                        <div class="skill-hex-title">Reflective Thinking</div>
+                        <div class="skill-hex-desc">Enjoys journaling and introspection; translates observations into creative work</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+<section id="leadership" class="section">
+    <h2 class="section-title fade-in">Leadership & Social Work</h2>
+    <div class="leadership-grid">
+
+        
+        <!-- Card Workshop: Decode Yourself - Nội dung PHẢI, ảnh TRÁI -->
+<div class="card card-layout-left slide-in-left">
+    <div class="card-images-gallery">
+        <div class="gallery-stack-container" data-section="workshop">
+            <img src="ws0.jpg" alt="Workshop Activity 1" class="gallery-img" data-index="0" data-lightbox="workshop">
+            <img src="ws1.jpg" alt="Workshop Activity 2" class="gallery-img" data-index="1" data-lightbox="workshop">
+            <img src="ws2.jpg" alt="Workshop Activity 3" class="gallery-img" data-index="2" data-lightbox="workshop">
+            <img src="ws3.jpg" alt="Workshop Activity 4" class="gallery-img" data-index="3" data-lightbox="workshop">
+            <div class="gallery-controls">
+                <button class="gallery-prev">◄</button>
+                <span class="gallery-counter"><span class="current">1</span>/<span class="total">4</span></span>
+                <button class="gallery-next">►</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-content">
+        <div class="card-date"><span class="award-badge">2025</span></div>
+        <h3>Founder & Host - "Decode Yourself" Psychology Workshop</h3>
+        <p><strong>Workshop Organizer & MC</strong> - Self-awareness and career orientation program</p>
+        <ul>
+            <li>Initiated and developed the concept of a <span class="highlight">120-minute workshop</span> on self-awareness, and learning motivation</li>
+            <li>Invited and collaborated with <span class="highlight">career consultant Nguyễn Hoàng Thiện</span> to design program content and interactive activities</li>
+            <li>Served as MC, facilitated group discussions, and encouraged participants to share reflections</li>
+            <li>Collected feedback with <span class="highlight">100% of participants</span> reporting benefits and expressing interest in future workshops</li>
+        </ul>
+    </div>
+</div>
+
+        <!-- Card 1: School Youth Union - Nội dung TRÁI, ảnh PHẢI -->
+        <div class="card card-layout-right slide-in-right">
+            <div class="card-content">
+                <div class="card-date"><span class="award-badge">2024-2025</span></div>
+                <h3>School Youth Union Executive Committee</h3>
+                <p><strong>Executive Member</strong> - Coordination and program development for student engagement</p>
+                <ul>
+                    <li>Organized campus-wide events, including cultural festivals and charity drives</li>
+                    <li>Coordinated between student groups and school administration to implement new initiatives</li>
+                    <li>Led weekly planning meetings and tracked project milestones to ensure timely execution</li>
+                </ul>
+            </div>
+            <div class="card-images-stack">
+                <div class="image-stack-container" data-section="leadership1">
+                    <img src="Social work 1.jpg" alt="Leadership Activity Photo 1" class="stack-img" data-index="0" data-lightbox="leadership1">
+                    <img src="Social 2.jpg" alt="Leadership Activity Photo 2" class="stack-img" data-index="1" data-lightbox="leadership1">
+                    <div class="stack-controls">
+                        <button class="stack-prev">⮌</button>
+                        <span class="stack-counter"><span class="current">1</span>/<span class="total">2</span></span>
+                        <button class="stack-next">⯈</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        
+        <!-- Card 4: Bản Chế Tạo - Nội dung PHẢI, ảnh TRÁI -->
+        <div class="card card-layout-left slide-in-left">
+            <div class="card-images-gallery">
+                <div class="gallery-stack-container" data-section="sgc">
+                    <img src="20250816_071756.jpg" alt="Green Campaign Activity 1" class="gallery-img" data-index="0" data-lightbox="sgc">
+                    <img src="IMG_6104.jpg" alt="Green Campaign Activity 2" class="gallery-img" data-index="1" data-lightbox="sgc">
+                    <img src="z6989524839785_a542983074eb7f59a147b94c28944cba.jpg" alt="Green Campaign Activity 3" class="gallery-img" data-index="2" data-lightbox="sgc">
+                    <img src="20250816_071206.jpg" alt="Green Campaign Activity 4" class="gallery-img" data-index="3" data-lightbox="sgc">
+                    <img src="8f2c5f0f3230ba6ee321.jpg" alt="Green Campaign Activity 5" class="gallery-img" data-index="4" data-lightbox="sgc">
+                    <img src="IMG_1023.jpg" alt="Green Campaign Activity 6" class="gallery-img" data-index="5" data-lightbox="sgc">
+                    <img src="IMG_1028.jpg" alt="Green Campaign Activity 7" class="gallery-img" data-index="6" data-lightbox="sgc">
+                    <img src="IMG_6113.jpg" alt="Green Campaign Activity 8" class="gallery-img" data-index="7" data-lightbox="sgc">
+                    <img src="IMG_1073.jpg" alt="Green Campaign Activity 9" class="gallery-img" data-index="8" data-lightbox="sgc">
+                    <img src="z6888051958851_8fce6560900de1436eac8d6870b1c17e.jpg" alt="Green Campaign Activity 10" class="gallery-img" data-index="9" data-lightbox="sgc">
+                    <div class="gallery-controls">
+                        <button class="gallery-prev">❮</button>
+                        <span class="gallery-counter"><span class="current">1</span>/<span class="total">10</span></span>
+                        <button class="gallery-next">❯</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="card-date"><span class="award-badge">2025</span></div>
+                <h3>Volunteer Campaign - Bản Chế Tạo, Lào Cai</h3>
+                <p><strong>Green Summer Volunteer Campaign Participant</strong> - Medical support and community service</p>
+                <p>During the <span class="highlight">Summer Green Campaign</span> in <span class="highlight">Bản Chế Tạo, Lào Cai</span>, I <span class="highlight">distributed medicine</span> and provided <span class="highlight">free healthcare</span> to local villagers, <span class="highlight">donated first-aid kits and essential supplies</span> to households, and lived in the village for <span class="highlight">2 days and 1 night</span>, gaining deep insights into humanitarian values and the hardships faced in remote areas.</p>
+            </div>
+        </div>
+
+        <!-- Card 3: SOS Village - Nội dung TRÁI, ảnh PHẢI -->
+        <div class="card card-layout-right slide-in-right">
+            <div class="card-content">
+                <div class="card-date"><span class="award-badge">2025</span></div>
+                <h3>Volunteer Visit - "Little Sunshine" at SOS Children's Village, Hanoi</h3>
+                <p><strong>Community Engagement Participant</strong> - Educational and social support activities</p>
+                <p>Over the course of two months, the team raised <span class="highlight">15 million VND</span> to support the village, providing <span class="highlight">100 kilograms of rice</span>, direct financial assistance for families, and creating joyful moments through games, shared meals, and creative activities with the children. Helping the mothers prepare lunch and sitting together for a warm meal fostered a true sense of family and belonging. Beyond material aid, the experience left lasting impressions of connection, empathy, and the quiet resilience found in a community that continues to grow despite challenges.</p>
+            </div>
+            <div class="card-images-gallery">
+                <div class="gallery-stack-container" data-section="sos">
+                    <img src="anh6.jpg" alt="SOS Village Activity 1" class="gallery-img" data-index="0" data-lightbox="sos">
+                    <img src="anh7.jpg" alt="SOS Village Activity 2" class="gallery-img" data-index="1" data-lightbox="sos">
+                    <img src="iloveimg-converted/IMG_0630.jpg" alt="SOS Village Activity 3" class="gallery-img" data-index="2" data-lightbox="sos">
+                    <img src="iloveimg-converted/IMG_0623.jpg" alt="SOS Village Activity 4" class="gallery-img" data-index="3" data-lightbox="sos">
+                    <img src="iloveimg-converted/IMG_0617.jpg" alt="SOS Village Activity 5" class="gallery-img" data-index="4" data-lightbox="sos">
+                    <img src="iloveimg-converted/IMG_0594.jpg" alt="SOS Village Activity 6" class="gallery-img" data-index="5" data-lightbox="sos">
+                    <img src="Screenshot 2025-09-19 121331.png" alt="SOS Village Activity 7" class="gallery-img" data-index="6" data-lightbox="sos">
+                    <div class="gallery-controls">
+                        <button class="gallery-prev">❮</button>
+                        <span class="gallery-counter"><span class="current">1</span>/<span class="total">7</span></span>
+                        <button class="gallery-next">❯</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Card 2: Thuy An - Nội dung PHẢI, ảnh TRÁI -->
+<div class="card card-layout-left slide-in-left">
+    <div class="card-images-stack">
+        <div class="image-stack-container" data-section="leadership2">
+            <img src="IMG_4404.png" alt="Volunteer Service Photo" class="stack-img" data-index="0" data-lightbox="leadership2">
+            <div class="stack-controls" style="display:none;">
+                <button class="stack-prev">❮</button>
+                <span class="stack-counter"><span class="current">1</span>/<span class="total">1</span></span>
+                <button class="stack-next">❯</button>
+            </div>
+        </div>
+    </div>
+    <div class="card-content">
+        <div class="card-date"><span class="award-badge">2024</span></div>
+        <h3>Thuy An Rehabilitation Center</h3>
+        <p><strong>Volunteer</strong> - Direct support and activity facilitation for clients with special needs</p>
+        <ul>
+            <li>Assisted therapists in conducting daily rehabilitation exercises and group activities</li>
+            <li>Prepared and distributed educational and recreational materials to enhance client participation</li>
+            <li>Fostered a welcoming environment, offering companionship and encouragement to residents</li>
+        </ul>
+    </div>
+</div>
+
+
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title fade-in">Let's Connect</h2>
+        <div class="contact-container fade-in">
+            <p style="font-size: 1.3rem; margin-bottom: 2rem; color: #555; position: relative; z-index: 2;">Let's discuss how we can create positive impact together.</p>
+            <div class="contact-links">
+                <a href="mailto:lignpham@gmail.com" class="contact-link">
+                    <span>Email</span>
+                </a>
+                <a href="https://docs.google.com/document/d/13tvFYHhJwK-yN_F9GOpD4LXuPmQ1riE8VfO6EyRO2rk/edit?pli=1&tab=t.0" 
+   class="contact-link" 
+   target="_blank" 
+   rel="noopener noreferrer">
+    <span>Resume</span>
+</a>
+                <a href="tel:0965992008" class="contact-link">
+                    <span>Phone</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1wgqFAx2kg-d49H4Lu_m3i_8MaxNIBfwH/view" 
+   class="contact-link" 
+   target="_blank" 
+   rel="noopener noreferrer">
+    <span>Portfolio</span>
+</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Thank you for visiting!</h3>
+            <p>© 2025 Pham Khanh Linh. Crafted with passion for Psychology and Social Impact.</p>
+            <p style="font-size: 0.9rem; opacity: 0.8;">Hanoi – Amsterdam High School for the Gifted | Future Psychologist</p>
+        </div>
+    </footer>
+
+    <!-- Individual Lightboxes for Each Section -->
+    <div id="lightbox-awards1" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">×</button>
+            <img class="lightbox-img" src="" alt="">
+            <div class="lightbox-controls">
+                <button class="prev-btn">‹ Previous</button>
+                <button class="next-btn">Next ›</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox-awards2" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">×</button>
+            <img class="lightbox-img" src="" alt="">
+            <div class="lightbox-controls">
+                <button class="prev-btn">‹ Previous</button>
+                <button class="next-btn">Next ›</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox-projects" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">×</button>
+            <img class="lightbox-img" src="" alt="">
+            <div class="lightbox-controls">
+                <button class="prev-btn">‹ Previous</button>
+                <button class="next-btn">Next ›</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox-leadership" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">×</button>
+            <img class="lightbox-img" src="" alt="">
+            <div class="lightbox-controls">
+                <button class="prev-btn">‹ Previous</button>
+                <button class="next-btn">Next ›</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox-volunteer" class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">×</button>
+            <img class="lightbox-img" src="" alt="">
+            <div class="lightbox-controls">
+                <button class="prev-btn">‹ Previous</button>
+                <button class="next-btn">Next ›</button>
+            </div>
+        </div>
+    </div>
+    <div id="lightbox-sos" class="lightbox">
+    <div class="lightbox-content">
+        <button class="lightbox-close">×</button>
+        <img class="lightbox-img" src="" alt="">
+        <div class="lightbox-controls">
+            <button class="prev-btn">‹ Previous</button>
+            <button class="next-btn">Next ›</button>
+        </div>
+    </div>
+</div>
+<div id="lightbox-sgc" class="lightbox">
+    <div class="lightbox-content">
+        <button class="lightbox-close">×</button>
+        <img class="lightbox-img" src="" alt="">
+        <div class="lightbox-controls">
+            <button class="prev-btn">‹ Previous</button>
+            <button class="next-btn">Next ›</button>
+        </div>
+    </div>
+</div>
+<div id="lightbox-leadership1" class="lightbox">
+    <div class="lightbox-content">
+        <button class="lightbox-close">×</button>
+        <img class="lightbox-img" src="" alt="">
+        <div class="lightbox-controls">
+            <button class="prev-btn">‹ Previous</button>
+            <button class="next-btn">Next ›</button>
+        </div>
+    </div>
+</div>
+
+<div id="lightbox-leadership2" class="lightbox">
+    <div class="lightbox-content">
+        <button class="lightbox-close">×</button>
+        <img class="lightbox-img" src="" alt="">
+        <div class="lightbox-controls">
+            <button class="prev-btn">‹ Previous</button>
+            <button class="next-btn">Next ›</button>
+        </div>
+    </div>
+</div>
+
+<div id="lightbox-workshop" class="lightbox">
+    <div class="lightbox-content">
+        <button class="lightbox-close">×</button>
+        <img class="lightbox-img" src="" alt="">
+        <div class="lightbox-controls">
+            <button class="prev-btn">‹ Previous</button>
+            <button class="next-btn">Next ›</button>
+        </div>
+    </div>
+</div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
